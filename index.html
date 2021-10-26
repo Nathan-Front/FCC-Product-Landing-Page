@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
     <title>FCC Product Landing Page</title>
 </head>
+
 <body>
     <header id="header">
         <img src="images/product-landing-page-logo.png" alt="" id="header-img" aria-label="hidden">
@@ -18,9 +19,9 @@
         </nav>
     </header>
     <main class="main--container">
-        <form action="https://www.freecodecamp.org/email-submit" id="form">
+        <form action="freecodecamp.org/email-submit" id="form" method="get">
             <h1>Handcrafted, home-made masterpieces</h1>
-            <input id="email" type="email" placeholder="Enter your email address" pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required>
+            <input id="email" type="email" name="email" placeholder="Enter your email address" pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required>
             <input type="submit" value="get started" id="submit">
         </form>
         <ul class="feature-content" id="feature">
@@ -83,3 +84,4 @@
     </footer>
 </body>
 </html>
+
